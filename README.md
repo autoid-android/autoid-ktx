@@ -13,7 +13,7 @@
 ### app.gradle
 
 ```java
-  implementation 'com.autoid:autoid-ktx:1.0.0'
+  implementation 'com.autoid:autoid-ktx:1.0.2'
 ```
 
 ## Tree:
