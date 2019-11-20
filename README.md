@@ -13,13 +13,23 @@
 ### app.gradle
 
 ```java
-  implementation 'com.autoid:autoid-ktx:1.0.2'
+  implementation 'com.autoid:autoid-ktx:2.0.1'
 ```
 
 ## Tree:
 
 ```
     .
-    ├── MainThread.kt
-    └── Messager.kt
+    ├── activities
+    │   └── BaseActivity.kt
+    ├── Application.kt
+    ├── net
+    │   └── BaseRequest.kt
+    ├── utils
+    │   ├── CoroutinesHelper.kt
+    │   ├── LogUtil.kt
+    │   ├── MainThread.kt
+    │   └── Messager.kt
+    └── views
+
 ```
